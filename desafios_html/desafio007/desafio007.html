@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela 
+    para aproveitar a melhor experiência &#129327;</p>
+    <picture>
+        <source media="(max-width:500px )" srcset="imagens/graminha.jpg">
+        <source media="(max-width:400px )" srcset="imagens/graminha.jpg">
+        <img src="imagens/graminha.jpg" alt="foto" height="500" width="500">
+    </picture>
+</body>
+</html>
